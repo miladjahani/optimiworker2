@@ -1,0 +1,11 @@
+# Cloudflare Workers Build configuration
+# This repository is deployed as a Workers Static Assets application.
+# The Cloudflare dashboard can keep:
+#   Build command: npm run build
+#   Deploy command: npx wrangler deploy
+#   Root directory: /
+name = "optimiworker"
+compatibility_date = "2026-07-30"
+
+[assets]
+directory = "./dist"
